@@ -1,0 +1,38 @@
+.topo, row {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fed {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.perfil-foto {
+    max-width: 70px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    align-items: end;
+}
+
+.nome-user {
+    align-items: center;
+    padding: 10px;
+}
+
+.tres-bolinhas {
+    text-align: center;
+}
+
+.foto-fed {
+    width: auto;
+    height: auto;
+    max-width: fit-conten;
+}

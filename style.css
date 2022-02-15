@@ -6,7 +6,29 @@
 
 }
 
+#primeira-foto{
+    padding-top: 35px;
+    margin-top: 35px;
+}
+#logo-instagram{
+    text-decoration: none;
+    color: black;
+}
+
+#imagem-nome-instagram{
+    width: 140px;
+}
+header {
+    align-items: center;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    padding-top: 10px;
+}
+
 .fed {
+    
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -24,9 +46,14 @@
 
 .nome-user {
     align-items: center;
-    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: -5px;
+    
 }
 
+.cidade{
+    font-size: 15px;
+}
 .tres-bolinhas {
     text-align: center;
 }
@@ -34,5 +61,6 @@
 .foto-fed {
     width: auto;
     height: auto;
-    max-width: fit-conten;
+    
 }
+

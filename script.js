@@ -12,4 +12,19 @@ function heartred() {
     input.style.color = 'red'
 }
 
+function camera(){
 
+    let div = document.getElementById("camera")
+    div.innerHTML = '<video id="video"></video>'
+    
+navigator.mediaDevices.getUserMedia({video: true})
+.then(function (mediaStream) {
+  var video = document.querySelector('#video');
+  
+     video.srcObject = mediaStream;
+     video.play();
+})
+.catch(function (err) {
+  console.log('Não há permissões para acessar a webcam')
+})
+}

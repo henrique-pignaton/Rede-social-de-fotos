@@ -39,14 +39,12 @@ function camera() {
  }
 
  const btn = document.getElementById('compartilharlink');
- const resultPara = document.querySelector('.result');
 
  // Deve ser acionado algum tipo de "ativação do usuário"
  btn.addEventListener('click', async () => {
    try {
      await navigator.share(shareData)
    } catch(err) {
-     resultPara.textContent = 'Error: ' + e
    }
  });
 

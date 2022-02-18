@@ -33,7 +33,7 @@ function camera() {
 //compartilhamento
 
  const shareData = {
-   title: 'MDN',
+   title: 'Henrique Pignaton',
    text: 'Acesse minha rede social de fotos feita em HTML, CSS e JAVASCRIPT',
    url: 'https://henrique-pignaton.github.io/Rede-social-de-fotos/',
  }

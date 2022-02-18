@@ -48,7 +48,6 @@ function camera() {
    } catch(err) {
      resultPara.textContent = 'Error: ' + e
    }
-   resultPara.textContent = 'MDN compartilhado com sucesso!'
  });
 
 // função de denunciar

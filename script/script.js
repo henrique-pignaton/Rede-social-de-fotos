@@ -34,8 +34,8 @@ function camera() {
 
  const shareData = {
    title: 'MDN',
-   text: 'Aprenda desenvolvimento web no MDN!',
-   url: 'https://developer.mozilla.org',
+   text: 'Acesse minha rede social de fotos feita em HTML, CSS e JAVASCRIPT',
+   url: 'https://henrique-pignaton.github.io/Rede-social-de-fotos/',
  }
 
  const btn = document.getElementById('compartilharlink');

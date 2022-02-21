@@ -32,23 +32,25 @@ function camera() {
 
 //compartilhamento
 
- const shareData = {
-   title: 'Henrique Pignaton',
-   text: 'Acesse minha rede social de fotos feita em HTML, CSS e JAVASCRIPT',
-   url: 'https://henrique-pignaton.github.io/Rede-social-de-fotos/',
- }
+const shareData = {
+  title: 'Henrique Pignaton',
+  text: 'Acesse minha rede social de fotos feita em HTML, CSS e JAVASCRIPT',
+  url: 'https://henrique-pignaton.github.io/Rede-social-de-fotos/',
+}
 
- const btn = document.getElementById('compartilharlink');
+const btn = document.getElementById('compartilharlink');
 
- // Deve ser acionado algum tipo de "ativação do usuário"
- btn.addEventListener('click', async () => {
-   try {
-     await navigator.share(shareData)
-   } catch(err) {
-   }
- });
+// Deve ser acionado algum tipo de "ativação do usuário"
+btn.addEventListener('click', async () => {
+  try {
+    await navigator.share(shareData)
+  } catch (err) {
+  }
+});
 
 // função de denunciar
 function denunciar() {
   alert('Publicação denunciada!')
 }
+
+

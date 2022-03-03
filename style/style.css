@@ -65,7 +65,7 @@ header {
  
 
 
-#cam{
+#video{
     transform: scaleX(-1);
     width: 50%;
 }

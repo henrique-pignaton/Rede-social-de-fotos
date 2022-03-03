@@ -15,11 +15,11 @@ function heartred() {
 function camera() {
 
   let div = document.getElementById("camera")
-  div.innerHTML = '<video id="video"></video>'
+  div.innerHTML = '<video id="cam"></video>'
 
   navigator.mediaDevices.getUserMedia({ video: true })
     .then(function (mediaStream) {
-      var video = document.querySelector('#video');
+      var video = document.querySelector('#cam');
 
       video.srcObject = mediaStream;
       video.play();

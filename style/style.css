@@ -58,12 +58,15 @@ header {
 
 .foto-fed {
     
-text-align: start;    
-    
+
+    text-align: center;   
+ 
+    wdi
 }
 
 #video{
     transform: scaleX(-1);
+    width: 50%;
 }
 
 

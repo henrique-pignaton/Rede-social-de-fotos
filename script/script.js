@@ -24,9 +24,7 @@ function camera() {
       video.srcObject = mediaStream;
       video.play();
     })
-    .catch(function (err) {
-      console.log('Não há permissões para acessar a webcam')
-    })
+
 }
 
 
